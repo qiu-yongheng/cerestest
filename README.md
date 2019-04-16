@@ -40,6 +40,7 @@
 -DMINIGLOG=ON \
 -DCMAKE_BUILD_TYPE=Release \
 -DCMAKE_C_FLAGS="-s" \
+-DCMAKE_C_FLAGS=-std=c99 -Os -fvisibility=hidden \
 /Users/qiuyongheng/Downloads/ceres-solver-1.14.0
 
 make clean
